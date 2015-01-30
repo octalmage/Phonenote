@@ -20,7 +20,13 @@ $(document).on("tap", ".listitem", function(e)
 
 $(document).on("ready", function()
 {
-	$("#display").html(marked(defaultnote[0]));
+	$("#loginButton").on("click", function()
+	{
+		username=$("#username").val();
+		password=$("#password").val();
+		login(username, password);
+	});
+	//$("#display").html(marked(defaultnote[0]));
 	/*store = new Lawnchair(
 	{
 		adapter: "dom"
@@ -44,8 +50,6 @@ $(document).on("ready", function()
 			});
 		}
 	});*/
-
-	login("username", "password");
 });
 
 
