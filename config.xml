@@ -24,5 +24,8 @@
 <preference name="target-device" value="handset" />
 <preference name="orientation" value="portrait" />
 
+<gap:config-file platform="ios" parent="UIViewControllerBasedStatusBarAppearance" overwrite="true">
+    <false/>
+</gap:config-file>
 
 </widget>
