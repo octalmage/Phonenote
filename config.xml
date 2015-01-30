@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "gs.stallin.phonenote" 
+        version   = "0.0.1">
+
+    <name>Phonenote</name>
+
+    <description>
+       Mobile app for Marknote.
+    </description>
+
+    <author href="http://jason.stallin.gs" email="jason@stallin.gs">
+       Jason Stallings
+    </author>
+	
+<gap:platform name="ios" />
+<gap:platform name="android" />
+	
+<preference name="phonegap-version" value="3.6.3" />
+	
+<preference name="webviewbounce" value="false" />
+<preference name="prerendered-icon" value="true" />
+<preference name="target-device" value="handset" />
+<preference name="orientation" value="portrait" />
+
+
+</widget>
