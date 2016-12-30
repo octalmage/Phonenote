@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "public": "./",
+    "rewrites": [],
+    "ignore": [
+      "firebase.json",
+      "**/.*"
+    ],
+    "cleanUrls": true
+  }
+}
